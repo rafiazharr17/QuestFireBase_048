@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "380891884882",
+    "project_id": "pam-firebase-49686",
+    "storage_bucket": "pam-firebase-49686.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380891884882:android:ad8db8d0469caaca68de8b",
+        "android_client_info": {
+          "package_name": "com.rafi.pertemuan12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgEejCbXXSjJV5bAo_08ZsgQ5vBE0xI88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
