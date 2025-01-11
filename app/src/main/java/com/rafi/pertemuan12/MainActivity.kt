@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.rafi.pertemuan12.ui.home.pages.HomeScreen
+import com.rafi.pertemuan12.ui.navigation.PengelolaHalaman
 import com.rafi.pertemuan12.ui.theme.Pertemuan12Theme
 
 class MainActivity : ComponentActivity() {
@@ -21,9 +22,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan12Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    HomeScreen(
+                    PengelolaHalaman(
                         modifier = Modifier.padding(innerPadding),
-                        navigateToItemEntry = {}
                     )
                 }
             }
