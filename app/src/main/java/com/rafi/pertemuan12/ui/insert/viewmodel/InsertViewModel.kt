@@ -9,6 +9,11 @@ sealed class FormState {
     data class Error(val message: String) : FormState()
 }
 
+data class InsertUiState(
+    val insertUiEvent: MahasiswaEvent = MahasiswaEvent(),
+    val isEntryValid: FormErrorState = FormErrorState()
+)
+
 data class MahasiswaEvent(
     val nim: String = "",
     val nama: String = "",
