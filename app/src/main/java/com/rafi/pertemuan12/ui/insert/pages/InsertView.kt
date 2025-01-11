@@ -81,7 +81,7 @@ fun InsertMhsView(
         snackbarHost = { SnackbarHost(hostState = snackbarHostState)},
         topBar = {
             TopAppBar(
-                title = { SnackbarHost(hostState = snackbarHostState) },
+                title = { Text("Tambah Mahasiswa") },
                 navigationIcon = {
                     Button(onClick = onBack) {
                         Text("Back")
