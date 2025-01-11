@@ -103,7 +103,7 @@ fun InsertMhsView(
                 onClick = {
                     if (viewModel.validateFields()){
                         viewModel.insertMhs()
-                        //onNavigate()
+                        onNavigate()
                     }
                 }
             )
