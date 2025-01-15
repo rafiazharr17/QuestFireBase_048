@@ -36,7 +36,7 @@ class DetailViewModel (
         repositoryMhs.getMhs(_nim)
             .filterNotNull()
             .map {
-                DetailuiState(addEvent = it.toDetailKontak())
+                DetailuiState(addEvent = it.toDetailMahasiswa())
             }
             .stateIn(
                 scope = viewModelScope,
@@ -49,7 +49,7 @@ data class DetailuiState(
     val addEvent: MahasiswaEvent = MahasiswaEvent()
 )
 
-fun Mahasiswa.toDetailKontak(): MahasiswaEvent =
+fun Mahasiswa.toDetailMahasiswa(): MahasiswaEvent =
     MahasiswaEvent(
         nim = nim,
         nama = nama,
